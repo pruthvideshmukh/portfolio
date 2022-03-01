@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header .nav {
+    margin: 10px 50px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.header .nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.header .nav .icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    display: none;
+}
+
+.section-intro {
+    background-color: white;
+    margin: 25px 150px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-intro .row .col h1 {
+    font-size: 40px;
+}
+
+.section-intro .row .col h1,
+p {
+    margin: 20px 10px;
+}
+
+.rsm-btn {
+    width: 250px;
+    color: white;
+    background-color: orangered;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.rsm-btn:hover {
+    color: orangered;
+    background-color: white;
+    border-color: orangered;
+}
+
+.section-intro .col img {
+    border-radius: 200px;
+    width: 350px;
+}
+
+.section-posts {
+    background-color: rgb(233, 241, 240);
+    padding: 20px 150px;
+}
+
+.section-posts a {
+    color: rgb(11, 85, 85);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.post {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.section-posts .row .col h1 {
+    font-size: 35px;
+}
+
+.section-works {
+    background-color: white;
+    margin: 25px 150px;
+}
+
+.section-works img {
+    border-radius: 10px;
+    width: 350px;
+}
+
+.section-works .col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.work-info {
+    margin: 20px;
+}
+
+.work-info h1 {
+    font-size: 35px;
+}
+
+.year {
+    width: 60px;
+    font-size: 18px;
+    background-color: rgb(23, 1, 59);
+    color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.faint-dark {
+    color: rgba(44, 33, 33, 0.521);
+}
+
+.section-footer .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-footer .row a {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 0px 20px;
+}
+
